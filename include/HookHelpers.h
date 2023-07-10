@@ -2,6 +2,7 @@
 #define HOOK_HELPERS_H_INCLUDED
 
 #include <cstddef>
+#include <cstdint>
 
 bool UnprotectMemory(void* memory, std::size_t size, unsigned long& oldProtect);
 
